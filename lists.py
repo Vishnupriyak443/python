@@ -20,4 +20,6 @@ del list3 #completely deleting a list
 print("count= ",list.count("VISHNU")) #gives the count of an item
 list2=[23,43,65,87,39,3]
 list2.sort()
-print(list2.sort(reverse=TRUE))
+print("After sorting :",list2)
+list2.reverse()
+print("Reverse of sorting:",list2)
