@@ -25,4 +25,5 @@ list2.reverse()
 print("Reverse of sorting:",list2)
 newlist=list1.copy() #copying items from old list to new list
 print("Newlist:", newlist)
-print(list.clear())
+list.clear()
+print(list)
