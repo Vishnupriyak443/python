@@ -21,13 +21,28 @@ set.pop() #Removes Randon element
 print(set)
 set1.pop()
 print(set1)
-print("Union: ",set.union(set1))
-print("intersection:",set.intersection(set1))
-
-
-
-
 set1.clear() #Clears all elements and results an empty set
 print(set1) 
 del set #Completely removes a set
 print(set)
+#Joining sets
+st={"ABC","XYZ",123}
+st1={2,34,"ABC",}
+set2=st.union(st1)
+print("Union:",set2)
+set3=st|st1
+print(st)
+set4=st.intersection(st1) #Intersection of two sets and creates a new set
+print("intersection",set4)
+st.intersection_update(st1) #intersection update >only changes an old set
+print(st)
+set5=st&st1 #intersection using symbols "&"
+print(set5)
+set6=st1.difference(st)
+print(set6)
+set7=st-st1
+print(set7) #error
+st1.difference_update(st)
+print(st1)
+set8=st.symmetric_difference(st1)
+print(st)
