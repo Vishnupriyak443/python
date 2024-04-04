@@ -5,12 +5,12 @@ a=5
 print(a+a)
 x=123.7854321
 print("float=%f"%x)
-print("two decimals=%20.2f"%x) #inclusing space and integers
+print("two decimals=%20.2f"%x) #20 refers to space before decimal point"".""
 print("f=%0.2f"%x)
 print("f={0:0.2f}".format(x)) #Using format()
-print("{0:^8}{1:^8}".format('item','price'))
-print("{0:^8}{1:^8}".format('apple','50.43'))
-print("{0:^9}{1:^9}".format('banana','40.12'))
+print("{0:^8} | {1:^8}".format('item','price'))
+print("{0:^8} | {1:^9}".format('apple','50.43'))
+print("{0:^8} | {1:^9}".format('banana','40.12'))
 y=123.4321
 print("{0:8}".format(y))
 print("{0:8}".format(y))
