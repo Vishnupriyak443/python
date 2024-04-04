@@ -5,7 +5,7 @@ a=5
 print(a+a)
 x=123.7854321
 print("float=%f"%x)
-print("two decimals=%2.2f"%x)
+print("two decimals=%20.2f"%x) #inclusing space and integers
 print("f=%0.2f"%x)
 print("f={0:0.2f}".format(x)) #Using format()
 print("{0:^8}{1:^8}".format('item','price'))
