@@ -10,9 +10,11 @@ dist.pop("Gender")
 print(dist)
 dist.popitem() #Removes random elements
 print(dist)
-del dist["DOB"]
+del dist["DOB"]  #Accesing items 
 print(dist)
 print(dist["Roll.no"])
 print(dist.keys())
 print("Name:",dist["Name"])
 print(dist.values())
+del dist
+print(dist)
