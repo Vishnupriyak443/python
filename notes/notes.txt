@@ -1,0 +1,14 @@
+list=[123,723,234,90]
+list.sort()
+print("After sorting:",list) 
+#otput:- [90,123,234,723]
+
+print("Reverse of the list:",list.reverse()) 
+#output:- None >>>>>>>>>the called function "list.reverse()" returning nothing
+ the return value of the function will be 0 or none 
+ 
+ SETS:
+ > un-ordered >>>not possible to access with index
+ >{}
+ >No duplicate elements
+ >Also can update with either lists or tuples
