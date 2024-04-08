@@ -2,6 +2,7 @@ def add(name,rno):
     print(f"{name} roll no is {rno}" )
 add("Vishnu",1122)    #Keyword only  
 add(1122,"Vishnu")
+
 add(rno=1122,name="Priya") #position only
 add(name="Priya",rno=1122)
  
