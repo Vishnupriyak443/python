@@ -12,3 +12,19 @@ print("Reverse of the list:",list.reverse())
  >{}
  >No duplicate elements
  >Also can update with either lists or tuples
+ANONYMOUS FUNCTION:
+* Also called as LAMBDA function
+* have no name
+* can take any number of arguments
+* only one statement
+* can return one value 
+* Ex: r = lambda(x,y):x+y
+* r is a variable to store returned value
+OBJECTS & CLASS
+We have to create object to access the class members along with dot(.) operator
+class student:
+     rno=1122
+     sname="vishnu"
+s1=student()     
+ print("Rollno:",s1.rno) #Accessing class members by creating objects 
+ print("Name:",s1.sname)    
