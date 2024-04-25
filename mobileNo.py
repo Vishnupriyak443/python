@@ -1,4 +1,10 @@
-num={"8985235014"}
-ls={0,1,2,3,4,5,6,7,8,9}
-set = num.difference(ls)
-print(set)
+num="8985235014"
+int=(map(int,num))
+ls1=list(int)
+ls=[]
+for i in range(0,10):
+    if i not in ls1:
+        ls.append(i)
+print(ls)        
+
+
