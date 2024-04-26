@@ -1,4 +1,7 @@
 sampledict={"name":"ABC","age":25,"salary":8000,"city":"Nellore"}
-sampledict.pop("name")
-for i in sampledict.values():
-    print(i)
+list=["name","salary"]
+for i in list:
+    if i in sampledict:
+        del sampledict[i]
+print(sampledict)        
+        
